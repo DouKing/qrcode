@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525F1D8728085C6600165B5A /* BarcodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F1D8628085C6600165B5A /* BarcodeService.swift */; };
+		525F1D89280864B200165B5A /* CIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F1D88280864B200165B5A /* CIImage+Extension.swift */; };
 		529027A5238AB6D500138847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529027A4238AB6D500138847 /* AppDelegate.swift */; };
 		529027A7238AB6D500138847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529027A6238AB6D500138847 /* ContentView.swift */; };
 		529027A9238AB6D600138847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529027A8238AB6D600138847 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		525F1D8628085C6600165B5A /* BarcodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeService.swift; sourceTree = "<group>"; };
+		525F1D88280864B200165B5A /* CIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+Extension.swift"; sourceTree = "<group>"; };
 		529027A1238AB6D500138847 /* qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529027A4238AB6D500138847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529027A6238AB6D500138847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				529027A4238AB6D500138847 /* AppDelegate.swift */,
 				529027A6238AB6D500138847 /* ContentView.swift */,
 				52A39AC0239B5A4B0054C3E0 /* Brain.swift */,
+				525F1D8628085C6600165B5A /* BarcodeService.swift */,
+				525F1D88280864B200165B5A /* CIImage+Extension.swift */,
 				529027A8238AB6D600138847 /* Assets.xcassets */,
 				529027AD238AB6D600138847 /* Main.storyboard */,
 				529027B0238AB6D600138847 /* Info.plist */,
@@ -150,6 +156,8 @@
 			files = (
 				529027A7238AB6D500138847 /* ContentView.swift in Sources */,
 				52A39AC1239B5A4B0054C3E0 /* Brain.swift in Sources */,
+				525F1D89280864B200165B5A /* CIImage+Extension.swift in Sources */,
+				525F1D8728085C6600165B5A /* BarcodeService.swift in Sources */,
 				529027A5238AB6D500138847 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

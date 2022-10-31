@@ -10,15 +10,15 @@ import SwiftUI
 import CoreGraphics
 
 struct ContentView: View {
-  @State var input: String = ""
-  @State var image: NSImage = NSImage()
+  @State var input: String = "https://www.baidu.com/"
   
   var body: some View {
     HStack {
       VStack(alignment: .leading, spacing: 5) {
         Image.qrImage(with: self.input)
           .aspectRatio(contentMode: .fit)
-          .frame(width: 200, height: 200, alignment: .center)
+          .frame(width: 200, height: 200, alignment: .leading)
+          .opacity(input.isEmpty ? 0 : 1)
       }.frame(minHeight: 300, alignment: .center)
       
       VStack(alignment: .leading) {
